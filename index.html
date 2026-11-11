@@ -31,6 +31,15 @@ ol.steps li::before{content:counter(s);flex:none;width:28px;height:28px;border-r
 table{width:100%;border-collapse:collapse;margin:8px 0;font-size:15px}
 th,td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
 th{background:var(--accent);white-space:nowrap}
+.fig{margin:8px 0 4px;text-align:center}
+.fig svg{width:100%;max-width:420px;height:auto;font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+.fig .t{font-size:12px;font-weight:700;fill:#b5651d}.fig .l{font-size:11px;fill:#2b2118}
+.fig figcaption{font-size:13px;color:#8a7a68}
+.fig .co{opacity:0;animation:pop .5s ease forwards}
+.fig .person{transform-origin:180px 480px;animation:sway 3.5s ease-in-out infinite}
+@keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes sway{0%,100%{transform:rotate(-1deg)}50%{transform:rotate(1deg)}}
+@media (prefers-reduced-motion:reduce){.fig .co{animation:none;opacity:1}.fig .person{animation:none}}
 footer{text-align:center;color:#8a7a68;font-size:12px;padding:20px}
 </style>
 </head>
@@ -46,6 +55,26 @@ footer{text-align:center;color:#8a7a68;font-size:12px;padding:20px}
 
 <section id="s1">
   <h2>１．身だしなみ</h2>
+  <figure class="fig"><svg viewBox="0 0 360 500" role="img" aria-label="身だしなみのポイント（イラスト）" xmlns="http://www.w3.org/2000/svg"><g class="person">
+<rect x="152" y="350" width="24" height="120" rx="6" fill="#222"/><rect x="184" y="350" width="24" height="120" rx="6" fill="#222"/>
+<ellipse cx="160" cy="474" rx="20" ry="9" fill="#111"/><ellipse cx="200" cy="474" rx="20" ry="9" fill="#111"/>
+<rect x="116" y="165" width="22" height="125" rx="11" fill="#fff" stroke="#cfc6b8"/><rect x="222" y="165" width="22" height="125" rx="11" fill="#fff" stroke="#cfc6b8"/>
+<circle cx="127" cy="298" r="12" fill="#f6d7b8"/><circle cx="233" cy="298" r="12" fill="#f6d7b8"/>
+<path d="M136 165 Q180 148 224 165 L224 355 L136 355 Z" fill="#fff" stroke="#cfc6b8"/>
+<rect x="170" y="136" width="20" height="22" fill="#f6d7b8"/>
+<path d="M146 200 L214 200 L220 360 L140 360 Z" fill="#b5651d"/>
+<rect x="156" y="158" width="6" height="44" fill="#b5651d"/><rect x="198" y="158" width="6" height="44" fill="#b5651d"/>
+<rect x="166" y="250" width="28" height="22" rx="3" fill="#9a5418"/>
+<circle cx="146" cy="110" r="7" fill="#f6d7b8"/><circle cx="214" cy="110" r="7" fill="#f6d7b8"/>
+<circle cx="180" cy="108" r="34" fill="#f6d7b8"/>
+<path d="M147 100 Q180 72 213 100 L213 88 Q180 62 147 88 Z" fill="#3b2a20"/>
+<path d="M142 86 Q180 26 218 86 Z" fill="#fff" stroke="#cfc6b8"/>
+<rect x="138" y="80" width="84" height="13" rx="6" fill="#fff" stroke="#cfc6b8"/>
+<circle cx="168" cy="111" r="3.2" fill="#3b2a20"/><circle cx="192" cy="111" r="3.2" fill="#3b2a20"/>
+<path d="M163 105 l4 2 M197 105 l-4 2" stroke="#3b2a20" stroke-width="1.5"/>
+<ellipse cx="160" cy="122" rx="6" ry="3.5" fill="#f4b6a6"/><ellipse cx="200" cy="122" rx="6" ry="3.5" fill="#f4b6a6"/>
+<path d="M170 124 Q180 133 190 124" stroke="#a0522d" stroke-width="2" fill="none" stroke-linecap="round"/>
+</g><g class="co" style="animation-delay:0.40s"><path d="M110 58.0 L158 60" stroke="#b5651d" stroke-width="1.5" fill="none"/><circle cx="158" cy="60" r="4" fill="#fff" stroke="#b5651d" stroke-width="2"/><rect x="2" y="22" width="108" height="72" rx="8" fill="#fff1dc" stroke="#b5651d"/><text x="9" y="39" class="t">帽子・髪</text><text x="9" y="54" class="l">髪は帽子の中へ</text><text x="9" y="69" class="l">長い髪は肩より</text><text x="9" y="84" class="l">前にこないよう結ぶ</text></g><g class="co" style="animation-delay:0.75s"><path d="M110 154.0 L146 112" stroke="#b5651d" stroke-width="1.5" fill="none"/><circle cx="146" cy="112" r="4" fill="#fff" stroke="#b5651d" stroke-width="2"/><rect x="2" y="118" width="108" height="72" rx="8" fill="#fff1dc" stroke="#b5651d"/><text x="9" y="135" class="t">ピアスはNG</text><text x="9" y="150" class="l">外せない場合は</text><text x="9" y="165" class="l">イヤーキャップか</text><text x="9" y="180" class="l">ネットを着用</text></g><g class="co" style="animation-delay:1.10s"><path d="M110 286.0 L127 298" stroke="#b5651d" stroke-width="1.5" fill="none"/><circle cx="127" cy="298" r="4" fill="#fff" stroke="#b5651d" stroke-width="2"/><rect x="2" y="250" width="108" height="72" rx="8" fill="#fff1dc" stroke="#b5651d"/><text x="9" y="267" class="t">爪・ネイル</text><text x="9" y="282" class="l">爪は短く切る</text><text x="9" y="297" class="l">ネイルは原則禁止</text><text x="9" y="312" class="l">外せない時は手袋</text></g><g class="co" style="animation-delay:1.45s"><path d="M110 448.5 L158 474" stroke="#b5651d" stroke-width="1.5" fill="none"/><circle cx="158" cy="474" r="4" fill="#fff" stroke="#b5651d" stroke-width="2"/><rect x="2" y="420" width="108" height="57" rx="8" fill="#fff1dc" stroke="#b5651d"/><text x="9" y="437" class="t">靴</text><text x="9" y="452" class="l">黒など</text><text x="9" y="467" class="l">目立たない色</text></g><g class="co" style="animation-delay:1.80s"><path d="M250 88.5 L201 103" stroke="#b5651d" stroke-width="1.5" fill="none"/><circle cx="201" cy="103" r="4" fill="#fff" stroke="#b5651d" stroke-width="2"/><rect x="250" y="60" width="108" height="57" rx="8" fill="#fff1dc" stroke="#b5651d"/><text x="257" y="77" class="t">まつエク</text><text x="257" y="92" class="l">こまめに手入れ</text><text x="257" y="107" class="l">（落ちやすい）</text></g><g class="co" style="animation-delay:2.15s"><path d="M250 168.5 L206 178" stroke="#b5651d" stroke-width="1.5" fill="none"/><circle cx="206" cy="178" r="4" fill="#fff" stroke="#b5651d" stroke-width="2"/><rect x="250" y="140" width="108" height="57" rx="8" fill="#fff1dc" stroke="#b5651d"/><text x="257" y="157" class="t">制服</text><text x="257" y="172" class="l">キレイな制服を</text><text x="257" y="187" class="l">着用する</text></g><g class="co" style="animation-delay:2.50s"><path d="M250 243.5 L224 205" stroke="#b5651d" stroke-width="1.5" fill="none"/><circle cx="224" cy="205" r="4" fill="#fff" stroke="#b5651d" stroke-width="2"/><rect x="250" y="215" width="108" height="57" rx="8" fill="#fff1dc" stroke="#b5651d"/><text x="257" y="232" class="t">制汗剤</text><text x="257" y="247" class="l">無香料のものを</text><text x="257" y="262" class="l">使う</text></g><g class="co" style="animation-delay:2.85s"><path d="M250 398.5 L206 405" stroke="#b5651d" stroke-width="1.5" fill="none"/><circle cx="206" cy="405" r="4" fill="#fff" stroke="#b5651d" stroke-width="2"/><rect x="250" y="370" width="108" height="57" rx="8" fill="#fff1dc" stroke="#b5651d"/><text x="257" y="387" class="t">長ズボン</text><text x="257" y="402" class="l">黒など</text><text x="257" y="417" class="l">目立たない色</text></g></svg><figcaption>ポイントをチェックしてから売場に出ましょう</figcaption></figure>
   <h3>メイク</h3>
   <ul>
     <li>ネイルは原則禁止、爪は短く切りましょう（外せない場合は手袋を着用）</li>
